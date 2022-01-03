@@ -1,0 +1,58 @@
+.ch-container {
+    width:250px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    height: 520px;
+    
+}
+.channelh {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.kr-container{
+    width: 250px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    height: 520px;
+}
+.kaseemr {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+.jonnyc-container {
+    width: 250px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    height: 520px;
+}
+.jonnyc {
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.ch-container, .jonnyc-container, .kr-container, .melese-container {
+    display: inline-block;
+    padding: 3px;
+    
+}
+.melese-container{
+    width: 250px;
+    background-color: lightblue;
+    text-align: center;
+    border-radius: 10px;
+    height: 520px;
+}
+.melesew{
+    width:200px;
+    height: 200px;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    
+}
