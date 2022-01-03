@@ -3,7 +3,7 @@
     background-color: lightblue;
     text-align: center;
     border-radius: 10px;
-    height: 520px;
+  
     
 }
 .channelh {
@@ -16,7 +16,7 @@
     background-color: lightblue;
     text-align: center;
     border-radius: 10px;
-    height: 520px;
+   
 }
 .kaseemr {
     width: 200px;
@@ -28,7 +28,7 @@
     background-color: lightblue;
     text-align: center;
     border-radius: 10px;
-    height: 520px;
+   
 }
 .jonnyc {
     width:200px;
@@ -38,6 +38,7 @@
 .ch-container, .jonnyc-container, .kr-container, .melese-container {
     display: inline-block;
     padding: 3px;
+    height: 580px;
     
 }
 .melese-container{
@@ -45,7 +46,7 @@
     background-color: lightblue;
     text-align: center;
     border-radius: 10px;
-    height: 520px;
+    
 }
 .melesew{
     width:200px;
@@ -53,6 +54,5 @@
     padding: 10px;
 }
 .title{
-    text-align: center;
-    
+    text-align: center; 
 }
