@@ -148,8 +148,54 @@
 				</div>
 			</div>
 		</div>
-	</section>    
-</div>                    
+	</section>
+</div>
+</body>
+
+<footer>
+ <!-- Footer -->
+ <section id="footer">
+  <div class="container">
+    <div class="row text-center text-xs-center text-sm-left text-md-left">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <h5>Quick links</h5>
+        <ul class="list-unstyled quick-links">
+          <li><a href="home.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+          <li><a href="About2.html"><i class="fa fa-angle-double-right"></i>About Us</a></li>
+          <li><a href="products.html"><i class="fa fa-angle-double-right"></i>Products</a></li>
+          <li><a href="contactUs.html"><i class="fa fa-angle-double-right"></i>Custom Order</a></li>
+          <li><a href="logIn.html"><i class="fa fa-angle-double-right"></i>Log In</a></li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        
+        
+      </div>
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <div class="subForm">
+          <form class="subscribe-form" action="#" method="post" target="_blank" novalidate="">
+            <div class="clearfix">
+              <div class="input-group input-light">
+              <input class="form-control" type="email" name="EMAIL" placeholder="Your e-mail"><span class="input-group-addon"><i class="icon-mail"></i></span>
+              </div>
+              <button class="btn btn-primary mt-2" type="submit">Suscbribe</button>
+            </div><span class="form-text text-sm text-white opacity-50">Subscribe to our Newsletter to receive early discount offers, latest news, sales and promo information.</span>
+            </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="#" target="_blank">GT Apparel</a></p>
+      </div>
+      </hr>
+    </div>	
+  </div>
+</section>
+
+</footer>
+<!-- ./Footer -->
 
 <style type="text/css">
    /* nav bar css code begins*/
@@ -438,8 +484,10 @@ html {
 }
 
    /* Nav bar css code ENDS */   
+
+   /* Body Css STARTS*/
           
-          body{
+   body{
 background:black;
 }              
 .page-title{
@@ -604,6 +652,88 @@ h4 {
 .location {
   color: #fff;
 }
+/*Body Ends*/
+
+/*Footer STARTS*/
+section {
+    padding: 60px 0;
+}
+
+#footer {
+    background: #5bc0de !important;
+    font-size: 20px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+    font-size: large;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+.subForm {
+	width: auto;
+	float: right;
+}
+.h6{
+  font-size: medium;
+  text-align: center;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+/*Footer ENDS*/
+
                     
 </style>
 
